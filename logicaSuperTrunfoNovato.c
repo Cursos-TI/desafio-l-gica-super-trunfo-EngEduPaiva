@@ -38,7 +38,7 @@ int main() {
 
     // Comparando as cartas com base no atributo escolhido
     if (atributoEscolhido == 1) { // Comparação pela População
-        printf("Comparação de cartas (Atributo: População):\n");
+        printf("Comparacao de cartas (Atributo: Populacao):\n");
         printf("Carta 1 - %s (%s): %d\n", carta1.nomeCidade, carta1.estado, carta1.populacao);
         printf("Carta 2 - %s (%s): %d\n", carta2.nomeCidade, carta2.estado, carta2.populacao);
         
@@ -48,7 +48,7 @@ int main() {
             printf("Resultado: Carta 2 (%s) venceu!\n", carta2.nomeCidade);
         }
     } else if (atributoEscolhido == 4) { // Comparação pela Densidade Populacional
-        printf("Comparação de cartas (Atributo: Densidade Populacional):\n");
+        printf("Comparacao de cartas (Atributo: Densidade Populacional):\n");
         printf("Carta 1 - %s (%s): %.2f\n", carta1.nomeCidade, carta1.estado, densidadePopulacional1);
         printf("Carta 2 - %s (%s): %.2f\n", carta2.nomeCidade, carta2.estado, densidadePopulacional2);
         
